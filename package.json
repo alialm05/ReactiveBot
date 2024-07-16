@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+    "nodemon": "^3.0.1",
+    "openai": "^3.3.0",
+    "rss-parser": "^3.13.0"
+  },
+  "name": "slash_command_package_v14",
+  "version": "1.0.0",
+  "main": "src/bot.js",
+  "devDependencies": {
+    "prettier": "2.8.8"
+  },
+  "scripts": {
+    "test": "node src/bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
