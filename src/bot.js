@@ -90,13 +90,10 @@ const commandFolders = fs.readdirSync("./src/commands");
 
       if (client.user != msg.author && (msg.channel.name.includes("chat") || msg.channel.name.includes("gen")) ) {
 
-        //msg.reply('ohh yess fuck me in the pussy baby ily')
-
         let randNum = Math.round(Math.random() * 1000)
-        //console.log(randNum)
+        
         if (randNum >= 990) {
           msg.react('🔥');
-
         }
         else if (randNum >= 980 && randNum < 990) {
           msg.react('🤓');
